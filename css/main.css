@@ -1,13 +1,20 @@
 body {
   padding-top: 35px;
   font-family: 'Roboto', sans-serif;
+  overflow-x: hidden;
+  width: 100%;
   /*background-color: #c5cce5;*/
+}
+
+p {
+  font-size: 2.5vmin;
 }
 
 /*body border styling*/
 #top, #bottom, #left, #right {
 	background: #B2DFDB;
 	position: fixed;
+  z-index: 1000;
 }
 #left, #right {
 	top: 0; bottom: 0;
@@ -67,38 +74,31 @@ body {
   font-size: 4vmin;
 }
 
-.about-me, .projects {
+.about-me, .projects, .skills {
+  padding-top: 50px;
   padding-right: 150px;
   padding-left: 150px;
 }
 
 /* about me content */
 
-.about-me {
-  padding-bottom: 50px;
-}
-
-.about-title, .project-title {
+.about-title, .project-title, .skill-title {
   padding-bottom: 40px;
+  font-size: 6vmin;
+  text-align: center;
 }
 
 /* project content */
 
-.project-title, .about-title {
-  text-align: center;
-}
-
-.projects p {
-  text-align: center;
+.description {
+  text-align: left;
   padding-bottom: 10px;
 }
 
 img {
-	max-width: 450px;
-	display: block;
+  display: block;
 	border: 2px solid #2F4F4F;
-	margin-left: auto;
-	margin-right: auto;
+  margin-bottom: 50px;
 }
 
 
@@ -135,8 +135,8 @@ img {
 
 /*addition of responsiveness*/
 @media only screen and (max-width: 500px) {
-	.nav-bar, .about-me, .projects {
-		padding: 10rem 0;
+	.nav-bar, .about-me, .projects, .skills{
+		padding: 0;
 		font-size: 1rem;
 		padding: 0 0.938rem;
 	}
@@ -145,8 +145,9 @@ img {
 	}
 
 	img {
-		margin-left: 0;
-		margin-right: 0;
+		margin-left: 0 auto;
+		margin-right: 0 auto;
+    margin-bottom: 0;
 	}
 }
 

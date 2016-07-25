@@ -7,9 +7,11 @@
     <title>Connie Jew</title>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/43d03d1e13.css" media="all">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/main.css">
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display|Roboto" rel="stylesheet">
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -27,6 +29,7 @@
       <div class="container-fluid">
         <ul class="nav navbar-nav navbar-right" role="navigation">
           <li><a href="#connie">About Me</a></li>
+          <li><a href="#skills">Skills</a></li>
           <li><a href="#projects">Projects</a></li>
           <li><a href="#contactinfo">Contact Me!</a></li>
         </ul>
@@ -52,21 +55,57 @@
         to eat, catching Pokémon, or exploring the outdoors.
       </p>
     </section>
-    <section id="projects" class="projects">
-      <h1 class="project-title">Projects</h1>
-      <p>CodePen About Me Page
-        <a href="http://codepen.io/cjew/pen/ZWpxem">
-          <img src="images/CodePenAboutMe.png" alt="About Me"/>
-        </a>
+    <section id="skills" class="skills">
+      <h1 class="skill-title">Skills</h1>
+      <p>
+        I currently use JavaScript, jQuery, React, Redux, MongoDB, Node.js, Express.js
       </p>
-      <p>Building a Landing Page from Scratch
-        <a href="https://github.com/cjjujubee/startup-landing-page-clone">
-        <img src="images/Karma.png" alt="Karma Landing Page"/>
-        </a>
-      </p>
-      <p>Hacking the New York Times
-        <img src="images/HackNYT.png" alt="Hacking the NYT"/>
-      </p>
+    </section>
+    <section class="projects">
+      <div class="container-fluid">
+        <h1 class="project-title">Sample Projects</h1>
+        <div class="row">
+          <div class="left-side col-sm-6 col-sm-push-6">
+            <a href="https://github.com/OoogleBoogle/EatUp">
+              <img src="images/EatUp.png" alt="EatUp" width="360px" height="190"/>
+            </a>
+          </div>
+          <div class="right-side col-sm-6 col-sm-pull-6">
+            <h4 class="title"><strong>EatUp</strong></h4>
+            <p class="description">Collaborative project that uses the FourSquare API in order to identify
+              the top-rated restaurant based on a food type. Using React and Redux,
+              I built out the front-end portion of the code.
+            </p>
+          </div>
+        </div>
+          <div class="row">
+            <div class="left-side col-sm-6 col-sm-push-6">
+              <a href="https://github.com/cjjujubee/nic-cage-and-chill">
+                <img src="images/NicCage.png" alt="NicCage" width="360px" height="190px"/>
+              </a>
+            </div>
+            <div class="right-side col-sm-6 col-sm-pull-6">
+              <h4 class="title"><strong>Nic Cage and Chill</strong></h4>
+              <p class="description">Web app that uses the Netflix Roulette API
+                to allow users to watch random Nicolas Cage movies. Made with React,
+                Redux, MongoDB, Node, and Express.
+              </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="left-side col-sm-6 col-sm-push-6">
+              <a href="https://github.com/cjjujubee/todo-app-rails">
+                <img src="images/ToDo.png" alt="ToDo" width="360px" height="190px"/>
+              </a>
+            </div>
+            <div class="right-side col-sm-6 col-sm-pull-6">
+              <h4 class="title"><strong>Ruby-on-Rails To Do List</strong></h4>
+              <p class="description">
+                A todo list application with login functionality built with Ruby-on-Rails.
+              </p>
+            </div>
+          </div>
+        </div>
     </section>
     <footer class="content-footer">
   		<p id="contactinfo" class="content">Where to find me:</p>
@@ -77,7 +116,5 @@
   			</li>
   		</ul>
   	</footer>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
   </body>
 </html>
