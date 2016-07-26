@@ -9,10 +9,16 @@ body {
 p {
   font-size: 2.5vmin;
   line-height: 1.4em;
+  color: #333333;
 }
 
 a {
   text-decoration: none !important;
+  font-size: 2.5vmin;
+}
+
+h4 {
+  font-size: 3.5vmin;
 }
 
 /*body border styling*/
@@ -35,23 +41,6 @@ a {
 #top { top: 0; }
 #bottom { bottom: 0; }
 
-/* nav bar */
-
-/*.navbar-default {
-  background-color:#2f4f4f;
-  background-image: none;
-  background-repeat: no-repeat;
-}
-
-.navbar-default .navbar-nav>li>a {
-  color: white;
-}
-
-.navbar-default .navbar-nav>li>a:hover {
-  color: #7fc79e;
-}*/
-
-/* page header */
 .top {
   height: 100vh;
 }
@@ -79,34 +68,37 @@ a {
   font-size: 4vmin;
 }
 
-.about-me, .projects, .skills {
+.about-me, .projects {
   padding-top: 50px;
   padding-right: 150px;
   padding-left: 150px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 /* about me content */
 
-.about-title, .project-title, .skill-title {
+.about-title, .project-title, .findMe-title {
   padding-bottom: 40px;
   font-size: 6vmin;
   text-align: center;
 }
 
-/* skills content */
-.skills p {
-  text-align: center;
+.about-me {
+  max-width: 750px;;
 }
 
 /* project content */
 
 .description {
   text-align: left;
-  padding-bottom: 10px;
+}
+.left-side, .right-side {
+  padding-left: 0;
 }
 
 img {
-  display: block;
+  display: inline-block;
 	border: 2px solid #2F4F4F;
   margin-bottom: 50px;
 }
@@ -115,11 +107,11 @@ img {
 /*social information*/
 .content-footer {
 	margin-top: 5em;
-	background-color: #00796B;
+	background-color: #F5D04C;
 	padding-top: 3em;
 	padding-bottom: 3em;
   text-align: center;
-  color: white;
+  color: black;
 }
 
 .social {
@@ -128,16 +120,19 @@ img {
 
 .content-footer .social {
 	word-spacing: 0.5em;
-	padding-top: 1rem;
 }
 
 .social > li {
 	display: inline-block;
-  color: white;
+  color: black;
 }
 
 .social > li > a {
   padding: 0;
+  color: black;
+}
+
+.social > li > a:hover {
   color: white;
 }
 
@@ -145,18 +140,20 @@ img {
 
 /*addition of responsiveness*/
 @media only screen and (max-width: 500px) {
-	.nav-bar, .about-me, .projects, .skills{
+	.about-me, .projects, .skills{
 		padding: 0;
 		font-size: 1rem;
-		padding: 0 0.938rem;
+    margin-left: 15px;
+    margin-right: 15px;
+		/*padding: 0 0.938rem;*/
 	}
-	.nav-bar .container-fluid .navbar-nav {
+	.container-fluid {
 		margin-top: 1.5em;
 	}
 
 	img {
-		margin-left: 0 auto;
-		margin-right: 0 auto;
+		margin-left: auto;
+		margin-right: auto;
     margin-bottom: 0;
 	}
 }
