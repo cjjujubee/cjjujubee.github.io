@@ -11,6 +11,10 @@ p {
   line-height: 1.4em;
 }
 
+a {
+  text-decoration: none !important;
+}
+
 /*body border styling*/
 #top, #bottom, #left, #right {
 	background: #B2DFDB;
