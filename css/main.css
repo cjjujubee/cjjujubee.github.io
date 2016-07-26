@@ -37,7 +37,7 @@ a {
 
 /* nav bar */
 
-.navbar-default {
+/*.navbar-default {
   background-color:#2f4f4f;
   background-image: none;
   background-repeat: no-repeat;
@@ -49,7 +49,7 @@ a {
 
 .navbar-default .navbar-nav>li>a:hover {
   color: #7fc79e;
-}
+}*/
 
 /* page header */
 .top {
