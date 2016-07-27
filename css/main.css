@@ -3,7 +3,7 @@ body {
   font-family: 'Roboto', sans-serif;
   overflow-x: hidden;
   width: 100%;
-  /*background-color: #c5cce5;*/
+  background-color: #fafafa;
 }
 
 p {
@@ -112,7 +112,7 @@ img {
 	padding-top: 3em;
 	padding-bottom: 3em;
   text-align: center;
-  color: black;
+  color: whitesmoke;
 }
 
 .social {
@@ -131,10 +131,11 @@ img {
 .social > li > a {
   padding: 0;
   color: black;
+  transition: color 0.15s ease-out;
 }
 
 .social > li > a:hover {
-  color: white;
+  color: whitesmoke;
 }
 
 /* responsiveness */
