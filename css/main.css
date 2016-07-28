@@ -144,7 +144,7 @@ img {
 
 /* responsiveness */
 
-@media (min-width: 1000px) {
+@media (min-width: 1700px) {
   h1 {
     font-size: 32px;
   }
