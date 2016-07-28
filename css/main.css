@@ -144,17 +144,17 @@ img {
 
 /* responsiveness */
 
-@media (min-width: 1700px) {
+@media (min-width: 1500px) {
   h1 {
-    font-size: 64px;
+    font-size: 70px;
   }
 
   .header h3 {
-    font-size: 40px;
+    font-size: 25px;
   }
 
   .project-title, .about-title, .findMe-title {
-    font-size: 60px;
+    font-size: 55px;
   }
 
   h4 {
