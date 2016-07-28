@@ -183,13 +183,17 @@ img {
 	}
 
   .left-side {
-    margin-bottom: 40px;
+    margin-bottom: 20px;
+  }
+
+  .about-me {
+    margin-bottom: 50px;
   }
 
   p, a {
     font-size: 18px;
   }
-  
+
   h4 {
     font-size: 20px;
   }
