@@ -146,23 +146,23 @@ img {
 
 @media (min-width: 1700px) {
   h1 {
-    font-size: 32px;
+    font-size: 64px;
+  }
+
+  .header h3 {
+    font-size: 40px;
   }
 
   .project-title, .about-title, .findMe-title {
-    font-size: 30px;
-  }
-
-  h3 {
-    font-size: 28px;
+    font-size: 60px;
   }
 
   h4 {
-    font-size: 24px;
+    font-size: 35px;
   }
 
   p, a {
-    font-size: 20px;
+    font-size: 25px;
   }
 }
 
