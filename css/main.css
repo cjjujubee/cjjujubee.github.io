@@ -102,8 +102,6 @@ img {
   display: inline-block;
 	border: 2px solid #2F4F4F;
   margin-bottom: 30px;
- /* width: 360px;
-  height: 190px;*/
   max-width: 100%;
   height: auto;
 }
@@ -175,6 +173,11 @@ img {
 
   .about-me {
     max-width: 1000px;;
+  }
+
+  .projects > img {
+    max-width: 360px;
+    max-height: 190px;
   }
 }
 
